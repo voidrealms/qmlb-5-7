@@ -12,7 +12,7 @@ Window {
 
 
     MyShape {
-        id: shareCentral
+        id: shapeCentral
         anchors.centerIn: parent
 
         text: "Center"
@@ -33,8 +33,8 @@ Window {
         id: shapeTop
         text: "Top"
         color: "green"
-        anchors.bottom: shareCentral.top
-        anchors.left: shareCentral.left
+        anchors.bottom: shapeCentral.top
+        anchors.left: shapeCentral.left
     }
 
 
@@ -42,23 +42,23 @@ Window {
         id: shapeBottom
         text: "Bottom"
         color: "blue"
-        anchors.top: shareCentral.bottom
-        anchors.left: shareCentral.left
+        anchors.top: shapeCentral.bottom
+        anchors.left: shapeCentral.left
     }
 
     MyShape {
         id: shapeLeft
         text: "Left"
         color: "red"
-        anchors.top: shareCentral.top
-        anchors.right: shareCentral.left
+        anchors.top: shapeCentral.top
+        anchors.right: shapeCentral.left
     }
 
     MyShape {
         id: shapeRight
         text: "Right"
         color: "yellow"
-        anchors.top: shareCentral.top
-        anchors.left: shareCentral.right
+        anchors.top: shapeCentral.top
+        anchors.left: shapeCentral.right
     }
 }
